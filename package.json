@@ -18,6 +18,7 @@
   },
   "dependencies": {
     "express": "^4.19.2",
+    "hbs": "^4.2.0",
     "luxon": "^3.4.4"
   }
 }
