@@ -29,7 +29,7 @@ app.use("/api", (req: Request, res: Response) => {
 });
 
 app.get("/", (req: Request, res: Response) => {
-    res.render("index");
+    res.render("index", { pageTitle: "Home Page" });
 });
 
 app.get("/errore", (req: Request, res: Response) => {
